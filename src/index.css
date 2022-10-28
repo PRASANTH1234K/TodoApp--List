@@ -86,3 +86,42 @@ code {
   border-radius: 10px;
   box-shadow: 5px 5px 40px gray;
 }
+
+@media screen and (max-width: 600px)
+{
+  .bigdiv
+  {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+ }
+ .App
+{
+  background-color:darkslategrey;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 40px gray;
+}
+.inputvalue
+{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+  margin-left: 48px;
+  width: 200px;
+  height: 38px;
+}
+.clearbutton
+{
+ width: 170px;
+ height: 40px;
+ text-align: center;
+ margin-left: 55px;
+ border-radius: 8px;
+  background-color:red;
+}
+
+
+}
