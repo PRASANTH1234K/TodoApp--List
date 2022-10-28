@@ -1,0 +1,13 @@
+.list-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title
+{
+  font-family: "roboto";
+  margin-bottom: 30px;
+  color: aqua;
+}
