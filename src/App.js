@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-//mock data
 import data from "./Components/data.json";
-//components
 import Header from "./Components/Header";
 import ToDoList from "./Components/ToDoList";
 import ToDoForm from './Components/ToDoForm';
@@ -20,6 +18,7 @@ function App() {
   const handleFilter = () => {
     let filtered = toDoList.filter(task => {
       return !task.complete;
+
     });
     setToDoList(filtered);
   }
